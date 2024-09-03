@@ -1,0 +1,16 @@
+﻿<Window x:Class="laba1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:laba1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="377" Width="373">
+    <Grid>
+        <Label Content="Число X" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxX" HorizontalAlignment="Center" Margin="0,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="354" PreviewTextInput="textBoxX_PreviewTextInput"/>
+        <Button x:Name="buttonStart" Content="Рассчитать сумму ряда" HorizontalAlignment="Center" Margin="0,59,0,0" VerticalAlignment="Top" Width="353" Click="buttonStart_Click"/>
+        <TextBox x:Name="textBoxLog" HorizontalAlignment="Center" Margin="0,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="354" Height="247" VerticalScrollBarVisibility="Auto" IsReadOnly="True"/>
+
+    </Grid>
+</Window>
